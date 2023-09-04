@@ -37,16 +37,32 @@
 # root=tkinter.Tk().mainloop()
 # # root.mainloop()
 
-import tkinter as tk
+""" import tkinter as tk
 
 from tkinter import ttk
 
 root = tk.Tk()
-frm = ttk.Frame(root, padding=10)
+frm = ttk.Frame(root, padding=100)
 frm.grid()
 
 ttk.Label(frm, text="Hola MG! \n Dame un abrazito!\n si me lo das maybe dios te perdone tus pecados").grid(column=0, row=0)
 ttk.Button(frm, text="si", command=root.destroy).grid(column=1, row=0)
-ttk.Button(frm, text="no", command=root.destroy).grid(column=1, row=1)
+ttk.Button(frm, text="quien es dios?", command=root.destroy).grid(column=1, row=1)
 
-root.mainloop()
+root.mainloop() """
+
+
+# matriz3d=[[[0]8*3]]*5
+
+m=[[0]*5]*8
+
+print(m)
+
+
+for i in range(0,30):
+    m.extend([5])
+    print(m)
+
+print(type(m))
+
+
