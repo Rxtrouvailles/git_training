@@ -52,17 +52,58 @@ ttk.Button(frm, text="quien es dios?", command=root.destroy).grid(column=1, row=
 root.mainloop() """
 
 
-# matriz3d=[[[0]8*3]]*5
+# matriz3d=[[[0]8]]*5
 
-m=[[0]*5]*8
+m=[[[0]*2]*3]*4
 
 print(m)
 
+""" 
 
-for i in range(0,30):
-    m.extend([5])
-    print(m)
+def factorial990(n):# hasta 990
+    if (n==0):
+        return 0
+    else:
+        return (n+factorial(n-1))
+    
 
-print(type(m))
+
+def factorial1980(n):# dese 990
+    if (n==990):
+      return 990
+    else:
+     return n+factorial(n-1)
+
+
+def factorial(n):# hasta 1980
+    if (n>1980):
+      return "no aplica"
+    else:
+        return (factorial1980(n) + factorial990(n))
+    
+    
+
+
+
+
+print(factorial990(990)) """
+
+
+
+def fRecfactorial(n):
+ if (n==0): 
+   return 1
+ else: 
+   return (n*fRecfactorial(n*.05))
+
+
+def suma(n):
+ n=n+2
+ return  n
+
+# def ():
+ 
+#  return  
+
 
 
