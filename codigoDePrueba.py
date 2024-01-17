@@ -1,41 +1,41 @@
-# input=open('/home/JC/Escritorio/entrada','r')
-# output=open('/home/JC/Escritorio/salida','w')
+input=open('/home/JC/Escritorio/entrada','w')
+output=open('/home/JC/Escritorio/salida','w')
 
-# inputline=input.readline()
+inputline=input.readline()
 
-# # print(type(inputline))
+print(type(inputline))
 
-# print(inputline.split())
-# print('--------*--------')
+print(inputline.split())
+print('--------*--------')
 
 
-# while (inputline):
-#   print(inputline)
-#   inputline=input.readline()
+while (inputline):
+  print(inputline)
+  inputline=input.readline()
   
 
-# print('-----------------')
-# print(inputline.split())
+print('-----------------')
+print(inputline.split())
 
 
 # crea una matriz de n elementos
 
 
 
-# m=int(input('valos de filas?: '))
-# n=int(input("valor de columnas?: "))
-# arreglo=[[0] * n for i in range (0,m)]
+m=int(input('valos de filas?: '))
+n=int(input("valor de columnas?: "))
+arreglo=[[0] * n for i in range (0,m)]
 
-# for i in range(0,n)
-
-
-# print(arreglo[2][3])
+for i in range(0,n):
 
 
-# import tkinter
+    print(arreglo[2][3])
 
-# root=tkinter.Tk().mainloop()
-# # root.mainloop()
+
+import tkinter
+
+root=tkinter.Tk().mainloop()
+root.mainloop()
 
 """ import tkinter as tk
 
